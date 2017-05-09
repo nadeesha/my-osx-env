@@ -1,0 +1,135 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "cmd+r",
+        "command": "editWithShell.runCommand",
+        "when": "editorTextFocus"
+    },{
+        "key": "ctrl+2",
+        "command": "workbench.action.focusSecondEditorGroup",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+t ctrl+f",
+        "command": "editor.action.formatDocument",
+        "when": "editorTextFocus"
+    },{
+        "key": "shift+cmd+space",
+        "command": "expand_region"
+    },{
+        "key": "ctrl+1",
+        "command": "workbench.action.focusFirstEditorGroup"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "cursorEndSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+t",
+        "command": "workbench.action.terminal.focus",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+t",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "shift+cmd+n",
+        "command": "extension.createNewFile"
+    },
+    {
+        "key": "ctrl+t ctrl+d",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+t ctrl+r",
+        "command": "editor.action.referenceSearch.trigger"
+    },
+    {
+        "key": "cmd+k cmd+e",
+        "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "ctrl+cmd+p",
+        "command": "gitProjectManager.openProject"
+    },
+    {
+        "key": "ctrl+t ctrl+m",
+        "command": "editor.action.rename",
+        "when": "editorTextFocus"
+    },{
+        "key": "ctrl+m ctrl+f",
+        "command": "macros.format",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "cursorWordStartLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "cursorWordEndRight"
+    },
+    {
+        "key": "ctrl+shift+cmd+n",
+        "command": "lineJumper.selectDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+cmd+p",
+        "command": "lineJumber.selectUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+p",
+        "command": "lineJumper.moveUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+space",
+        "command": "extension.aceJump",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+space",
+        "command": "editor.action.triggerSuggest",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "lineJumper.moveDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+b",
+        "command": "cursorWordStartLeftSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+f",
+        "command": "cursorWordEndRightSelect"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "cursorRightSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "cursorLeftSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "workbench.view.explorer",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "F1",
+        "command": "workbench.action.tasks.terminate"
+    }
+]

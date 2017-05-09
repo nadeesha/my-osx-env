@@ -1,0 +1,57 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "gitProjectManager.baseProjectsFolders": [
+        "/Users/nadeesha"
+    ],
+    "gitProjectManager.storeRepositoriesBetweenSessions": true,
+    "gitProjectManager.ignoredFolders": [
+        "node_modules",
+        "compiled",
+        ".idea",
+        "fastlane",
+        "src/compiled"
+    ],
+    "gitProjectManager.maxDepthRecursion": 1,
+    "gitProjectManager.openInNewWindow": false,
+    "window.zoomLevel": -1,
+    "editor.fontFamily": "Operator Mono",
+    "editor.fontSize": 15,
+    "editor.lineHeight": 25,
+    "editor.fontWeight": "100",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/compiled": true,
+        "**/app/compiled": true,
+        "**/.idea": true,
+        "**/node_modules": true,
+        "**/ios": true,
+        "**/android": true
+    },
+    "aceJump.finder.pattern": "[ ,-.{_()\\[<>}/']",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "Operator Mono",
+    "vsicons.projectDetection.disableDetect": true,
+    "workbench.colorTheme": "Material Theme",
+    "workbench.iconTheme": "vs-seti",
+    "typescript.check.tscVersion": false,
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": false,
+    "sync.gist": "8a0e0140c8c13132b28f3e5ec74c2d22",
+    "sync.lastUpload": "2017-05-08T21:51:04.553Z",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "",
+    "sync.forceDownload": false,
+    "sync.anonymousGist": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false
+}
