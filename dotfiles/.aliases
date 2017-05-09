@@ -1,0 +1,45 @@
+# Unix
+alias e="$EDITOR"
+alias v="$VISUAL"
+
+# Bundler
+alias b="bundle"
+
+# Rails
+alias migrate="rake db:migrate db:rollback && rake db:migrate db:test:prepare"
+alias s="rspec"
+
+# Pretty print the path
+alias path='echo $PATH | tr -s ":" "\n"'
+
+# Yarn
+alias ya="yarn add"
+
+# NPM
+alias npmt="npm test"
+alias npml="npm run lint"
+alias ios="react-native run-ios"
+alias npmc="npm run compile-ts"
+alias npmb="npm run build"
+
+# Git
+alias gt="gittower ."
+alias gmt="git mergetool"
+alias gmmaster="git fetch --all && git merge origin/master --no-ff"
+
+# File ops
+alias openf="open -a Finder ."
+alias ll="ls -al"
+alias ln="ln -v"
+alias mkdir="mkdir -p"
+
+# ZSH
+alias zshconfig="subl ~/.zshrc"
+alias ohmyzsh="subl ~/.oh-my-zsh"
+
+# Typescript
+alias tscw="tsc -w --pretty"
+
+# Include custom aliases
+[[ -f ~/.aliases.local ]] && source ~/.aliases.local
+
